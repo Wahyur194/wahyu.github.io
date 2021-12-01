@@ -1,0 +1,11 @@
+.jumbotron{
+	padding-top: 2rem;
+	background-color: #faebd7;
+}
+ul{
+	margin-left: -45px;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
