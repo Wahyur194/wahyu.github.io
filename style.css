@@ -1,11 +1,17 @@
-.jumbotron{
-	padding-top: 2rem;
-	background-color: #faebd7;
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #faebd7;
 }
-ul{
-	margin-left: -45px;
+ul {
+  margin-left: -45px;
 }
-li{
-	list-style: none;
-	display: inline-block;
+li {
+  list-style: none;
+  display: inline-block;
+}
+footer {
+  background-color: #faebd7;
+}
+h2 {
+  font-size: 20px;
 }
