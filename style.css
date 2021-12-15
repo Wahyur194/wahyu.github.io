@@ -1,6 +1,6 @@
 .jumbotron {
   padding-top: 2rem;
-  background-color: #f5f5dc;
+  background-color: #faebd7;
 }
 ul {
   margin-left: -45px;
@@ -10,14 +10,14 @@ li {
   display: inline-block;
 }
 footer {
-  background-color: #e6e6fa;
+  background-color: #faebd7;
 }
 .lead-1 {
   font-size: 15px;
   font-style: italic;
 }
 .font-jp {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
 }
