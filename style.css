@@ -1,4 +1,10 @@
-.jumbotron {
+#projects h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+#jumbotron {
+  text-align: center;
   padding-top: 2rem;
   background-color: #faebd7;
 }
@@ -21,7 +27,7 @@ footer {
   font-weight: bold;
   color: white;
 }
-.about h2 {
+#about h2 {
   font-weight: bold;
   font-size: 20px;
 }
