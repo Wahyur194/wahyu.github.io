@@ -6,7 +6,7 @@
 #jumbotron {
   text-align: center;
   padding-top: 2rem;
-  background-color: #faebd7;
+  background-image: linear-gradient(to top, #fbc2eb, #e7b3e4, #d2a5de, #bb98d7, #a18cd1);
 }
 ul {
   margin-left: -45px;
@@ -16,7 +16,7 @@ li {
   display: inline-block;
 }
 footer {
-  background-color: #faebd7;
+  background-image: linear-gradient(to bottom, #fbc2eb, #e7b3e4, #d2a5de, #bb98d7, #a18cd1);
 }
 .lead-1 {
   font-size: 15px;
@@ -30,4 +30,7 @@ footer {
 #about h2 {
   font-weight: bold;
   font-size: 20px;
+}
+#projek {
+  background-color: #fbc2eb;
 }
