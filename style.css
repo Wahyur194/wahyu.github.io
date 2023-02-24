@@ -1,14 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to bottom, #150d2d, #3a2a54, #64497d, #926aa8, #c48dd4);
+}
+section {
+  padding-top: 5rem;
+}
+#home .nav-link:hover {
+  border-radius: 15px;
+  background: #fff;
+  color: #000;
+}
 #jumbotron {
+  height: 750px;
   text-align: center;
-  padding-top: 6rem;
-  background-image: linear-gradient(to top, #fbc2eb, #e7b3e4, #d2a5de, #bb98d7, #a18cd1);
+  padding-top: 8rem;
+  background-image: url("img/gunung.jpg");
+  background-size: cover;
+  /* background-image: linear-gradient(to top, #fbc2eb, #e7b3e4, #d2a5de, #bb98d7, #a18cd1); */
 }
-ul {
-  margin-left: -45px;
+#jumbotron h1,
+#jumbotron p {
+  font-family: "Poppins", sans-serif;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.9);
 }
-li {
-  list-style: none;
-  display: inline-block;
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background: #a18cd1;
+  width: 160px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.btn:hover {
+  background: #a18cd1;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#about {
+  background-color: #000;
+}
+#projects {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#service .card {
+  text-align: center;
+  display: block;
+  border-radius: 20px;
+}
+.ordernow {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  background: #a18cd1;
+  width: 160px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.ordernow:hover {
+  color: #fff;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/* .loadMore {
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background: #008cff;
+  width: 160px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 20px;
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+} */
+/* .loadMore:hover {
+  color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+} */
+/* #service {
+  padding-top: 50px;
+  background-color: #c48dd4;
+} */
+#footer {
+  color: #fff;
+  background-color: #150d2d;
+}
+h2 {
+  font-size: 20px;
 }
 .lead-1 {
   font-size: 15px;
@@ -18,43 +125,4 @@ li {
   font-size: 20px;
   font-weight: bold;
   color: white;
-}
-#about h2 {
-  font-weight: bold;
-  font-size: 20px;
-}
-#projects {
-  background-image: linear-gradient(to bottom, #fbc2eb, #e7b3e4, #d2a5de, #bb98d7, #a18cd1);
-}
-section {
-  padding-top: 5rem;
-}
-footer {
-  background-image: linear-gradient(to bottom, #fbc2eb, #e7b3e4, #d2a5de, #bb98d7, #a18cd1);
-}
-.btn {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  background: #a18cd1;
-  width: 160px;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #ffff;
-  border-radius: 20px;
-  cursor: pointer;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: box-shadow, transform;
-  transition-property: box-shadow, transform;
-}
-.btn:hover,
-.btn:focus,
-.btn:active {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1: 1);
-  transform: scale(1: 1);
 }
